@@ -73,7 +73,7 @@ body{
 }
 .about .container img{
 	width: 60%;
-	height: 37vh;
+	height: 30vh;
 	border-top: 5px solid #000072;
 	border-right: 5px solid #000072;
 	border-radius: 10px;
@@ -177,6 +177,14 @@ body{
 		grid-template-rows: repeat (2, 50px );
 		grid-gap: 1.5em;
 		padding: 10px;
+	}
+	.about .container img{
+		width: 60%;
+		height: 40vh;
+		border-top: 5px solid #000072;
+		border-right: 5px solid #000072;
+		border-radius: 10px;
+		margin: 30px 0;
 	}
 }
 .toTop{
