@@ -5,6 +5,7 @@ body{
 .navbar{
 	color: #fff;
 	border-bottom: 1px solid #000;
+	overflow-x: hidden;
 }
 .logo img:hover{
 	transform: scale(1.2) rotate(100deg);
@@ -139,11 +140,12 @@ body{
 #kontak{
 	background-color: #fff;
 	border-radius: 10px;
+	overflow-x: hidden;
 }
 #listKontak{
 	margin-top: 5vh;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: repeat (2, 50px );
 	grid-gap: 1.5em;
 	padding: 10px;
@@ -167,6 +169,14 @@ body{
 @media only screen and (min-width: 600px){
 	.none{
 		width: 30%;
+	}
+	#listKontak{
+		margin-top: 5vh;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat (2, 50px );
+		grid-gap: 1.5em;
+		padding: 10px;
 	}
 }
 .toTop{
